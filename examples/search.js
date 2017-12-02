@@ -1,6 +1,8 @@
 var AskSteem = require('../index.js')
 
-AskSteem.search({q: 'amy winehouse', include: 'meta'}, function(error, response, request) {
-    console.log(request.request.uri)
-    console.log(response.results.length + ' results found')
+var query = 'amy winehouse'
+
+AskSteem.search({q: query, include: 'meta'}, function(error, response, request) {
+    if (error) console.log(error, request)
+    else console.log(response.results.length+' results for '+query)
 })

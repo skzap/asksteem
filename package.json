@@ -1,6 +1,6 @@
 {
   "name": "asksteem",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wrapper for the AskSteem API",
   "main": "index.js",
   "repository": {
@@ -13,6 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.83.0"
+    "fetch": "^1.1.0"
   }
 }
