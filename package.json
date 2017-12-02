@@ -1,8 +1,12 @@
 {
   "name": "asksteem",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper for the AskSteem API",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skzap/asksteem.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
