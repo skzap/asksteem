@@ -6,7 +6,7 @@ AskSteem = ApiWrapper.create({
        suggestions: '/suggestions?${term}',
        search: '/search?q=${q}&pg=${pg}&include=${include}&sort_by=${sort_by}&order=${order}&types=${types}',
        related: '/related?author=${author}&permlink=${permlink}&q=${q}&user=${user}&include=${include}&sort_by=${sort_by}&order=${order}',
-       trending: '/trending?q={}q&size=${size}&types=${types}',
+       trending: '/trending?q={q}&size=${size}&types=${types}',
    }
 });
 
