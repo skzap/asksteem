@@ -1,6 +1,6 @@
 {
   "name": "asksteem",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Wrapper for the AskSteem API",
   "main": "index.js",
   "repository": {
